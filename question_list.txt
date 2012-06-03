@@ -1,7 +1,6 @@
 Current Technologies:
 ---------------------
-Rails (Other Framework)
-Sinatra (Framework)
+Rails (Framework)
 Rack    (HTTP Responder)
 Capistrano (Deploying / Starting)
 Thin / Webrick / Unicorn (HTTP Server)
@@ -28,4 +27,6 @@ Questions:
 4. If we have our Capistrano recipe written, why would we want Chef?
 5. Please spell out *exactly* what a Persistence server does?
 6. Which piece is responsible for spinning up services for load management?
-7. 
+7. Chef-solo seems very difficult to launch. Should we continue to investiage?
+8. Let's say I wanted to run Son of Store Engine and Pointsfeed on the same box. I've just started
+   a new Linode instance. What should I do, and in what order? Where would I go to learn that?
