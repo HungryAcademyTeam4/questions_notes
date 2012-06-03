@@ -1,3 +1,5 @@
+Current Technologies:
+---------------------
 Rails (Other Framework)
 Sinatra (Framework)
 Rack    (HTTP Responder)
@@ -7,6 +9,9 @@ NGinx (Reverse Proxy)
 Passenger (???)
 MySQL (Database)
 
+
+Proposed Technologies:
+----------------------
 God (Process Management)
 Chef (Capistrano Consistency?)
 Faye (PubSub)
@@ -14,6 +19,9 @@ ElasticSearch (Search)
 REDIS (Key / Value Store)
 Resque (Background Tasks)
 
+
+Questions:
+----------
 1. Why do we need both Rack & Unicorn? (Division of responsibilities?)
 2. What does Passenger do, and why do we want to use it?
 3. Given our other technologies, do we want God, and if so, why?
